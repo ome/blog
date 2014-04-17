@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            The OME Blog
 tagline:          'Microscopy, Life sciences imaging, and you'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'The <a href="http://openmicroscopy.org" target="_blank">Open Microscopy Environment</a> project blog.'
 url:              http://openmicroscopy.org
 
 author:
