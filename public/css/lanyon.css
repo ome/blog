@@ -526,14 +526,14 @@ a.pagination-item:hover {
   color: #8f5536;
 }
 
-/* OME blue-purple */
+/* OME logo light blue */
 .theme-base-OME .sidebar,
 .theme-base-OME .sidebar-toggle:active,
 .theme-base-OME #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #B3B3E6;
+  background-color: #C18DCD;
 }
 .theme-base-OME .container a,
 .theme-base-OME .sidebar-toggle,
 .theme-base-OME .related-posts li a:hover {
-  color: #B3B3E6;
+  color: #C18DCD;
 }
