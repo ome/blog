@@ -525,3 +525,15 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* OME blue-purple */
+.theme-base-OME .sidebar,
+.theme-base-OME .sidebar-toggle:active,
+.theme-base-OME #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #000066;
+}
+.theme-base-OME .container a,
+.theme-base-OME .sidebar-toggle,
+.theme-base-OME .related-posts li a:hover {
+  color: #000066;
+}
