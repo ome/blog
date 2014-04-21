@@ -11,6 +11,8 @@ tagline:          'Microscopy, Life sciences imaging, and you'
 description:      'The <a href="http://openmicroscopy.org" target="_blank">Open Microscopy Environment</a> project blog.'
 url:              http://openmicroscopy.org
 
+baseurl:          /blog
+
 author:
   name:           'The OME Team'
   url:            https://twitter.com/openmicroscopy
