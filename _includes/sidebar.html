@@ -25,6 +25,10 @@
       {% endif %}
     {% endfor %}
 
+    {% for cat in site.categories %}
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/categories/#{{ cat[0] }}">Category: {{ cat[0] }}</a>
+    {% endfor %}
+
     <a class="sidebar-nav-item" href="https://github.com/openmicroscopy">OME on GitHub</a>
   </nav>
 
