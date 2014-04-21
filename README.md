@@ -4,9 +4,11 @@ Submit posts for consideration by opening a PR to add your post under
 /_drafts and any images under /images. Submissions will be edited prior to
 publication if necessary.
 
+[draft.md](_drafts/draft.md) provides guidance on formatting your submission.
+
 ## Acknowledgements
 
-This blog is based on Lanyon, a theme for
+This blog is based on [Lanyon](http://lanyon.getpoole.com), a theme for
 [Poole](https://github.com/poole/poole) which provides a fully furnished
 Jekyll setup. See [the Poole usage guidelines](https://github.com/poole/poole#usage)
 for how to install and use Jekyll.

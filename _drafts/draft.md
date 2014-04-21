@@ -20,4 +20,6 @@ To add an image, save it into the image folder and then insert using
 See a markdown guide such as [this one here](https://daringfireball.net/projects/markdown/basics)
 if you need further formatting help.
 
+Or see [poole example content file](https://github.com/poole/poole/blob/master/_posts/2014-01-01-example-content.md)
+for what types of more technical formatting are supported by this theme.
 
