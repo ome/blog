@@ -9,7 +9,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="http://openmicroscopy.org">OME Home page</a>
+    <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="{{ site.baseurl }}">Blog Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -29,6 +29,8 @@
       <a class="sidebar-nav-item" href="{{ site.baseurl }}/categories/#{{ cat[0] }}">Category: {{ cat[0] }}</a>
     {% endfor %}
 
+    <a class="sidebar-nav-item" href="http://openmicroscopy.org">OME Home page</a>
+    
     <a class="sidebar-nav-item" href="https://github.com/openmicroscopy">OME on GitHub</a>
   </nav>
 
