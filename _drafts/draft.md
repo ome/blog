@@ -4,9 +4,11 @@ title: Add your post title here
 categories: add-category
 ---
 
-#Your Title Here
-
 Then merrily add some text using markdown e.g *this is italics*, **this is bold** and a link is formatted as [link text](http://yourlinkhere.html)
+
+If you want titles within a post, headings are
+
+#Top level
 
 ##Subtitle
 
