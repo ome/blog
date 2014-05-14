@@ -10,7 +10,7 @@ title:            The OME Blog
 tagline:          'Microscopy, Life sciences imaging, and you'
 url:              http://openmicroscopy.org
 
-baseurl:          /
+baseurl:          ''
 
 author:
   name:           'The OME Team'
