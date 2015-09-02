@@ -1,5 +1,8 @@
 language: ruby
 sudo: false
+branches:
+  only:
+    - gh-pages
 cache: bundler
 rvm: 2.2.2
 install: bundle install
