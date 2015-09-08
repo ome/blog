@@ -13,10 +13,10 @@ Two security changes to enhance authentication and authorization for Web Start (
 
 As of Java 7 update 51
 Rich Internet Applications must contain two things:
- 1. Code signatures from a trusted authority.
- 2. Manifest Attributes:
-    i. Permissions (required) indicating if the application should run within the sandbox or it requires full-permissions.
-    ii. Codebase (recommended): location of the hosted code.
+1. Code signatures from a trusted authority.
+2. Manifest Attributes:
+   i. Permissions (required) indicating if the application should run within the sandbox or it requires full-permissions.
+   ii. Codebase (recommended): location of the hosted code.
 
 Due to vulnerabilities affecting Java plugins, users are now frequently recommended to disable Java, at least, in their favorite browser. Since 2013, browsers like Firefox, Google chrome just to mention a few have started to block plugins by default.
 The US Department of Homeland Security has been recommended since 2013 to disable Java in Web browsers unless it is absolutely necessary to run it.
