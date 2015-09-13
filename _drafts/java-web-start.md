@@ -4,9 +4,11 @@ title: Java Web Start
 categories: tech-issues
 ---
 
-##Summary
+Java applets and almost all [NPAPI](https://en.wikipedia.org/wiki/NPAPI) plugins are getting obsolete and
+are being replaced by Web based technologies, probably for the better due to security risks plugins bring.
+NPAPI plugins have now been removed from the latest version of Google Chrome and Chromium.
+The days of Java Web Start are probably numbered.
 
-This is the end, beautiful friend. This is the end.
 ##Background
 
 Java Web Start was introduced in 2001 to allow applications to be launched through browsers or directly via the Java Network Launching Protocol (JNLP).
@@ -45,7 +47,7 @@ During our testing we are increasingly encountering unpredictable issues, across
 ##OMERO and Java Web Start
 
 For the past few years, the Java Desktop clients could be distributed as Java Web Start Applications. Such feature was requested by several institutions.
-We totally acknowledge that it is a practical and still active way to distribute the applications across an institution. But, due to the steady increase of issues not under our control,
+We totally acknowledge that it is a practical and still active way to distribute the applications. But, due to the steady increase of issues not under our control,
 we have concluded that continuing to support the use of Java Web Start for distribution of the OMERO Desktop clients is unsustainable.
 
 In recently released versions of OMERO, we made significant effort to unify the OMERO Desktop and Web clients.
