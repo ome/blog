@@ -5,7 +5,7 @@ categories: tech-issues
 ---
 
 Java applets and almost all [NPAPI](https://en.wikipedia.org/wiki/NPAPI) plugins are getting obsolete and
-are being replaced by Web based technologies, probably for the better due to security risks plugins bring.
+are being replaced by Web-based technologies, probably for the better due to security risks plugins bring.
 NPAPI plugins have now been removed from the latest version of Google Chrome and Chromium.
 The days of Java Web Start are probably numbered.
 
@@ -37,8 +37,8 @@ It is getting harder and harder to distribute Java Web Start applications for de
 
 ##What about Browser support?
 
-The Java plug-in for web browsers relies on the cross platform plugin architecture [NPAPI](https://en.wikipedia.org/wiki/NPAPI), which has been supported by all major web browsers for the past 10 years.
-In version 45 (released Sept 2015), Google's Chrome has dropped support for [NPAPI plugins like Java](https://support.google.com/chrome/answer/6213033).
+The Java plugin for web browsers relies on the cross-platform plugin architecture [NPAPI](https://en.wikipedia.org/wiki/NPAPI), which has been supported by all major web browsers for the past 10 years.
+In version 45 (released Sept 2015), Google Chrome has dropped support for [NPAPI plugins like Java](https://support.google.com/chrome/answer/6213033).
 This means that you can't enable Java in Google Chrome 45 (or later).
 Firefox, Internet Explorer and Safari still continue to support it but for how long?
 
@@ -51,7 +51,7 @@ We totally acknowledge that it is a practical and still active way to distribute
 we have concluded that continuing to support the use of Java Web Start for distribution of the OMERO Desktop clients is unsustainable.
 
 In recently released versions of OMERO, we made significant effort to unify the OMERO Desktop and Web clients.
-With new import options available via, for example, OMERO.dropbox or in-place, more features like ROI support being worked on in the Web client and the drop of Java support in Web Browser by Google, we feel that it is time to deprecate the distribution of our Desktop clients as Java Web Start applications.
+With new import options available via, for example, OMERO.dropbox or in-place, more features like ROI support being worked on in the Web client and the drop of Java support in Google Chrome, we feel that it is time to deprecate the distribution of our Desktop clients as Java Web Start Applications.
 We will stop releasing them from OMERO version 5.2.
 
 
