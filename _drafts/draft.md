@@ -8,17 +8,18 @@ Then merrily add some text using markdown e.g *this is italics*, **this is bold*
 
 If you want titles within a post, headings are
 
-#Top level
+# Top level
 
-##Subtitle
+## Subtitle
 
-###Another another level if needed
+### Another another level if needed
 
 To add an image, save it into the image folder and then insert using
 ![alt text](/images/yourimage.png)
 
 See a markdown guide such as [this one here](https://daringfireball.net/projects/markdown/basics)
-if you need further formatting help.
+if you need further formatting help. The markdown engine for GitHub pages is
+now kramdown, a [quick reference guide is available](http://kramdown.gettalong.org/quickref.html).
 
 Or see [poole example content file](https://github.com/poole/poole/blob/master/_posts/2014-01-01-example-content.md)
 for what types of more technical formatting are supported by this theme.
