@@ -1,5 +1,5 @@
 # Dependencies
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 markdown:         kramdown
@@ -12,7 +12,7 @@ permalink:        pretty
 title:            The OME Blog
 tagline:          'Because metadata is worth a thousand pictures'
 url:              http://blog.openmicroscopy.org
-
+repository:       ome/blog
 baseurl:          ''
 
 author:
