@@ -1,9 +1,10 @@
+---
 language: ruby
 sudo: required
 
 services:
-- docker
+  - docker
 
 script:
-    - docker run -it --rm -v $PWD:/srv/jekyll -eJEKYLL_UID=$UID jekyll/builder:pages jekyll build
+  - docker run -it --rm -v $PWD:/srv/jekyll -eJEKYLL_UID=$UID jekyll/builder:pages jekyll build
   - docker run -it  --rm -v $(pwd)/_site:/site -it jekyll/builder:pages /usr/gem/bin/htmlproofer /site --disable-external
