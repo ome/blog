@@ -1,0 +1,19 @@
+---
+name: Build
+
+on: 
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - name: Build
+        run: |
+          docker run --rm -v $PWD:/srv/jekyll -eJEKYLL_UID=$UID jekyll/builder:pages jekyll build
+          docker run --rm -v $(pwd)/_site:/site jekyll/builder:pages /usr/gem/bin/htmlproofer /site --disable-external
